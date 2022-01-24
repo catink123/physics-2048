@@ -1,0 +1,143 @@
+{
+  "configVersion": 1,
+  "timestamp": 1643064778515,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.af50475138849ae3b59e.js",
+        "/manifest.webmanifest",
+        "/polyfills.183613f897381bf362f2.js",
+        "/runtime.c1653b1eb4fbd9c5baa2.js",
+        "/styles.dba2abd1603bca32189f.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/bgs/autumn.jpg",
+        "/assets/bgs/beach.jpg",
+        "/assets/bgs/city.jpg",
+        "/assets/bgs/fire.jpg",
+        "/assets/bgs/flowers.jpg",
+        "/assets/bgs/guitar.jpg",
+        "/assets/bgs/joker.jpg",
+        "/assets/bgs/leaf.jpg",
+        "/assets/bgs/minimalistic_city.jpg",
+        "/assets/bgs/neon_samurai.jpg",
+        "/assets/bgs/paint.jpg",
+        "/assets/bgs/rainforest.jpg",
+        "/assets/bgs/shapes1.jpg",
+        "/assets/bgs/shapes2.jpg",
+        "/assets/bgs/sky.jpg",
+        "/assets/bgs/squares.jpg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-48x48.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/symbols/amperemeter.png",
+        "/assets/symbols/clock.png",
+        "/assets/symbols/cube.png",
+        "/assets/symbols/dynamometer.png",
+        "/assets/symbols/motor.png",
+        "/assets/symbols/plotnost.png",
+        "/assets/symbols/press.png",
+        "/assets/symbols/resistance.png",
+        "/assets/symbols/ruler.png",
+        "/assets/symbols/scale.png",
+        "/assets/symbols/speedometer.png",
+        "/assets/symbols/uskorenie.png",
+        "/assets/symbols/voltmeter.png",
+        "/assets/symbols/work.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/bgs/autumn.jpg": "19d9f5d1d9a0191a25ee23a686ebeb6b6be1c95c",
+    "/assets/bgs/beach.jpg": "5b5dd3a2afaf63fc602e0b6b48375e3f4c9f05a0",
+    "/assets/bgs/city.jpg": "92e499a48a66c81e872f06e551b2e16ac78f4af1",
+    "/assets/bgs/fire.jpg": "8cd4ff3e3a4effcd3a0a8418762206832c4d9568",
+    "/assets/bgs/flowers.jpg": "f0a7e1efc7a6f035705775e66ed34f57db638618",
+    "/assets/bgs/guitar.jpg": "237ba4c8ea56a359c55d3c17d7d0d0e6f7130116",
+    "/assets/bgs/joker.jpg": "4c76985afc5eab80a9626704ef694d50c20075fa",
+    "/assets/bgs/leaf.jpg": "ff2d40a94b1c9b759a70aa450df1f24aede94066",
+    "/assets/bgs/minimalistic_city.jpg": "0e41e3da6d26490aea5fcfdb13ae4746f840803c",
+    "/assets/bgs/neon_samurai.jpg": "84854748b198354ab48fd7f73ccd9828315ade57",
+    "/assets/bgs/paint.jpg": "514c54e18af33a0b96c1ed85a0a3536485a59478",
+    "/assets/bgs/rainforest.jpg": "289adee0dbf6cdf231215e3cdb2c55bfe2d5cfd4",
+    "/assets/bgs/shapes1.jpg": "0ea12faa953a8806eb88a987e511e6cf4703c44d",
+    "/assets/bgs/shapes2.jpg": "d9a7e9c9384970a26d5450fe513a0c9d1cdbaac8",
+    "/assets/bgs/sky.jpg": "2d8479b9ab3683cb990b5e86192bd2ae759c8f19",
+    "/assets/bgs/squares.jpg": "efd15aa8e96f8ec006d5da71729d42da28d112ef",
+    "/assets/icons/icon-128x128.png": "94d967b32a5efd59d5444804c69ec637418533eb",
+    "/assets/icons/icon-144x144.png": "3b10a1462dbb227e0f838fea654a1e0b0178fcc5",
+    "/assets/icons/icon-152x152.png": "05beb34823bebd9d71282f959c775cbdbe63c756",
+    "/assets/icons/icon-192x192.png": "701dc57f5a90f81c2a238c281fd2309a0ff74a58",
+    "/assets/icons/icon-384x384.png": "d7fb0d39e0d9f1f33cdede124fa4f7e1a5b5d8b0",
+    "/assets/icons/icon-48x48.png": "48a24ab7c93178eebc3a69725abef01b2806c1aa",
+    "/assets/icons/icon-512x512.png": "6e419b3eaa4caaf698183b51c7d9c874828f9f05",
+    "/assets/icons/icon-72x72.png": "70f19961e80927cb4017252222e1a2eb13e15762",
+    "/assets/icons/icon-96x96.png": "d5f5dde9160ec07dd998d5f50bdae741308125a4",
+    "/assets/symbols/amperemeter.png": "824696db78423d61ad0e0d4f200b6217627bc522",
+    "/assets/symbols/clock.png": "dd916f56508c0d0391f289b31f0401bf09de391e",
+    "/assets/symbols/cube.png": "766be44266d616fc2d094b1b3f81bde80609555e",
+    "/assets/symbols/dynamometer.png": "6bbaa6233d632b65cfe5ea7bbbaf5fa0d266b99b",
+    "/assets/symbols/motor.png": "f6408879a7942fa3109606ae5c8d096ba3cb21b4",
+    "/assets/symbols/plotnost.png": "6ec6a44257104caa354f361652bcd35a2b3a8e09",
+    "/assets/symbols/press.png": "60465eb472ba3054ce62e6d840d63e9e875b130d",
+    "/assets/symbols/resistance.png": "fedf91773e8def459391bc59e7b9d84030c75875",
+    "/assets/symbols/ruler.png": "4c225119d4cd93d7c7a51f0a49a50ab3b6220d83",
+    "/assets/symbols/scale.png": "f8e69448deadf93ee95fb2a617014942f10a30ec",
+    "/assets/symbols/speedometer.png": "d23374dfb464ffb2b21bbde8c4c903fd57347ad6",
+    "/assets/symbols/uskorenie.png": "1b881287912964c38bfcded40802d44f1eaceb3c",
+    "/assets/symbols/voltmeter.png": "31b4c07609407fdabb34399f44cc09f39edf3926",
+    "/assets/symbols/work.png": "0940f738fa3b3c2bd84a9c4e7d0356d3671c2a8c",
+    "/favicon.ico": "a02649e2d97659f33fb5c444f236071c091a5721",
+    "/index.html": "4db49f0d04d5dfe6bc1c88e2342c6b34f0048041",
+    "/main.af50475138849ae3b59e.js": "7e29c30595ec7f9fa751705cfe6ce150fa9dbbbc",
+    "/manifest.webmanifest": "aa92c01ce2c5c8a40d1f640982f4b86f7abc5a0f",
+    "/polyfills.183613f897381bf362f2.js": "210f0ea82a330cfe2ee243bc3b0dc211a091a52b",
+    "/runtime.c1653b1eb4fbd9c5baa2.js": "ad0af6c855e8ccf015222c5206a7b70002bf6fea",
+    "/styles.dba2abd1603bca32189f.css": "97808559a79f4fc2238196277fd6359d001ab13d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
