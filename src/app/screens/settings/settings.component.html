@@ -1,0 +1,18 @@
+<app-screen [notMain]="true">
+    <h1>Настройки</h1>
+    <label>Тема:
+        <select appThemed [(ngModel)]="theme">
+            <option value="light">Светлая</option>
+            <option value="dark">Тёмная</option>
+        </select>
+    </label>
+    <label>Фон: 
+        <select appThemed [(ngModel)]="currentBG">
+            <option value="">Цвет темы</option>
+            <option *ngFor="let bg of bgs" [value]="bg.id">{{ bg.name }}</option>
+        </select>
+    </label>
+    <label>Показать кнопки управления
+        <input appThemed type="checkbox" [(ngModel)]="showControls">
+    </label>
+</app-screen>

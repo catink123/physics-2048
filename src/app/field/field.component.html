@@ -1,0 +1,12 @@
+<div 
+    class="fieldContainer" 
+    #fieldContainer
+    (swipe)="onSwipe($event)"
+    >
+    <div [@fade] class="gameOverText" *ngIf="isGameOver" [ngClass]="theme">
+        <div class="flex">
+            <p appThemed>Игра окончена!</p>
+            <button appThemed (click)="sendScore()" [disabled]="isScoreButtonDisabled">Отправить счёт</button>
+        </div>
+    </div>
+</div>

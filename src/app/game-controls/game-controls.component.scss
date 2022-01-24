@@ -1,0 +1,32 @@
+:host {
+    display: grid;
+    // grid-template-columns: 1fr 1fr 1fr;
+    // grid-template-rows: 1fr 1fr 1fr;
+    grid-template:  ". u ." 1fr
+                    "l . r" 1fr
+                    ". d ." 1fr
+                            / 1fr 1fr 1fr;
+}
+
+button {
+    width: 75px;
+    height: 50px;
+    font-size: 48px;
+    line-height: 24px;
+}
+
+button.up {
+    grid-area: u;
+}
+
+button.down {
+    grid-area: d;
+}
+
+button.left {
+    grid-area: l;
+}
+
+button.right {
+    grid-area: r;
+}

@@ -1,0 +1,47 @@
+div.center {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+:host {
+    height: 100vh;
+}
+
+div.controls {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+div.controls > button {
+    flex-grow: 1;
+}
+
+p.score {
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.authPanel {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+div.main {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+div.main.light {
+    background: rgba($color: white, $alpha: .75);
+}
+
+div.main.dark {
+    background: rgba($color: #111, $alpha: .75);
+}

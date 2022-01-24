@@ -1,0 +1,8 @@
+<div class="root" [ngClass]="theme">
+    <button appThemed *ngIf="!isLoggedIn" (click)="login()">Войти</button>
+    <ng-container *ngIf="isLoggedIn">
+        <button appThemed (click)="logout()">Выйти</button>
+        <p appThemed>{{ name }}</p>
+        <img [src]="imageURL">
+    </ng-container>
+</div>

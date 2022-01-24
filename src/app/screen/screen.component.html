@@ -1,0 +1,6 @@
+<div appThemed class="root">
+    <div class="flex">
+        <ng-content></ng-content>
+        <button appThemed *ngIf="notMain" routerLink="/">Назад</button>
+    </div>
+</div>

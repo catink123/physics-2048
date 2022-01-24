@@ -1,0 +1,14 @@
+<app-screen [notMain]="true">
+    <h1>Таблица рекордов</h1>
+    <table *ngIf="data">
+        <tr>
+            <td>Имя</td>
+            <td>Счёт</td>
+        </tr>
+        <tr *ngFor="let entry of data">
+            <td>{{entry.name}}</td>
+            <td>{{entry.score}}</td>
+        </tr>
+    </table>
+    <p *ngIf="!data">Загрузка...</p>
+</app-screen>

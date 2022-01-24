@@ -1,0 +1,19 @@
+<div class="center">
+    <div class="flex main" [ngClass]="theme">
+        <p appThemed class="score">Счёт: {{ score }} <br *ngIf="lcc.length > 0"> {{lcc.length > 0 ? 'Последняя: ' + lcc : ''}}</p>
+        <app-field></app-field>
+        <div class="controls">
+            <button appThemed (click)="showMenu()">Меню</button>
+            <button appThemed (click)="resetGame()">Сброс</button>
+        </div>
+        <app-game-controls *ngIf="showControls"></app-game-controls>
+    </div>
+</div>
+
+<div [@fade] *ngIf="isMenuShown">
+    <div [@menuRouteAnimation]="prepareRoute(outlet)">
+        <router-outlet class="outlet" #outlet="outlet"></router-outlet>
+    </div>
+</div>
+
+<app-auth-panel class="authPanel"></app-auth-panel>

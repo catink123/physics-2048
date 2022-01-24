@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+div.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: fit-content;
+    align-items: center;
+}
+
+button {
+    padding: 5px;
+    font-size: 14px;
+    transition-duration: .05s;
+}
+
+button:disabled {
+    opacity: 0.5;
+}

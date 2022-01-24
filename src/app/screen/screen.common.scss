@@ -1,0 +1,30 @@
+div.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: fit-content;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+table, p, h1 {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+table, td, tr {
+    border-collapse: collapse;
+    border: 2px solid gray;
+}
+
+td {
+    padding: 5px;
+}
