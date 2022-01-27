@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1643066626623,
+  "timestamp": 1643268415314,
   "index": "/physics-2048/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/physics-2048/favicon.ico",
         "/physics-2048/index.html",
-        "/physics-2048/main.616b972edee9a2a5e9c1.js",
+        "/physics-2048/main.1d319ad4d15f932f324b.js",
         "/physics-2048/manifest.webmanifest",
         "/physics-2048/polyfills.183613f897381bf362f2.js",
         "/physics-2048/runtime.c1653b1eb4fbd9c5baa2.js",
@@ -114,8 +114,8 @@
     "/physics-2048/assets/symbols/voltmeter.png": "31b4c07609407fdabb34399f44cc09f39edf3926",
     "/physics-2048/assets/symbols/work.png": "0940f738fa3b3c2bd84a9c4e7d0356d3671c2a8c",
     "/physics-2048/favicon.ico": "a02649e2d97659f33fb5c444f236071c091a5721",
-    "/physics-2048/index.html": "aa6bfd52b9ee5659981a41149eadf84f88a01498",
-    "/physics-2048/main.616b972edee9a2a5e9c1.js": "8bf36a73345ba9168268fdda232c3d2c434d9d87",
+    "/physics-2048/index.html": "3b0d3fdff47c7acfd7920e544406c296315f987d",
+    "/physics-2048/main.1d319ad4d15f932f324b.js": "ea2570e490895274e6d1d395b184c2721e2840e9",
     "/physics-2048/manifest.webmanifest": "aa92c01ce2c5c8a40d1f640982f4b86f7abc5a0f",
     "/physics-2048/polyfills.183613f897381bf362f2.js": "210f0ea82a330cfe2ee243bc3b0dc211a091a52b",
     "/physics-2048/runtime.c1653b1eb4fbd9c5baa2.js": "ad0af6c855e8ccf015222c5206a7b70002bf6fea",
