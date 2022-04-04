@@ -2,13 +2,14 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { Action, Game, GameOptions } from './lib/Game';
 
-export const gameSettings = {
+export const gameSettings: GameOptions = {
   keybinds: {
     "ArrowUp": Action.MoveUp,
     "ArrowDown": Action.MoveDown,
     "ArrowLeft": Action.MoveLeft,
     "ArrowRight": Action.MoveRight
-  }
+  },
+  fieldDisplaySize: 375
 }
 
 @Injectable({

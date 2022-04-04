@@ -128,7 +128,6 @@ export class Cell {
 
         // Display
         this._element = document.createElement("div");
-        // console.log(this._element.childNodes);
         if (this._element.childNodes.length > 0) 
             this._element.replaceChild(this.displayValue.html, this._element.childNodes[0]);
         else
@@ -136,7 +135,8 @@ export class Cell {
         applyStyles(this._element, {
             width: this._cellSize + "px",
             height: this._cellSize + "px",
-            ...cellStyles
+            ...cellStyles,
+            fontSize: Math.floor(this._cellSize / 3) + "px"
         });
         this._updateAppearance();
         applyPosition(this._element, {

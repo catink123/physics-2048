@@ -50,7 +50,9 @@ export class Field {
         applyStyles(this._element, {
             width: this._fieldDisplaySize + "px",
             height: this._fieldDisplaySize + "px",
-            ...fieldStyles
+            ...fieldStyles,
+            backgroundImage:    `repeating-linear-gradient(to right, transparent 0px ${this._fieldDisplaySize / this._fieldSize - 1}px, black ${this._fieldDisplaySize / this._fieldSize - 1}px ${this._fieldDisplaySize / this._fieldSize}px), 
+                                repeating-linear-gradient(to bottom, transparent 0px ${this._fieldDisplaySize / this._fieldSize - 1}px, black ${this._fieldDisplaySize / this._fieldSize - 1}px ${this._fieldDisplaySize / this._fieldSize}px)`
         });
         try {
             container.appendChild(this._element);

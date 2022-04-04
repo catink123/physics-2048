@@ -55,7 +55,7 @@ export class Game {
             }
 
             for (const [key, value] of kbs) {
-                if (key === e.code) this.callAction(value);
+                if (key === e.key) this.callAction(value);
             }
         })
     }
